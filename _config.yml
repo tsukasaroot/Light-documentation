@@ -1,2 +1,4 @@
 theme: jekyll-theme-hacker
 include: [_pages]
+description: [A light and lightspeed API framework written in PHP]
+show_downloads: [true]
