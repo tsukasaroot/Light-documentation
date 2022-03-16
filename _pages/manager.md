@@ -13,7 +13,7 @@ permalink: /manager/
 
 ##### AuthKey
 
-<details>
+<details open>
 <summary>php manager authKey create</summary>
 > Create an authentification key to use for any service that will do queries to API.
 </details>
