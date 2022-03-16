@@ -9,7 +9,9 @@ permalink: /manager/
 
 <details open>
 <summary>memcache</summary>
+
 <blockquote> php manager memcache</blockquote>
+
 <code> purges memcache memory.</code>
 </details>
 
@@ -17,6 +19,8 @@ permalink: /manager/
 
 <details open>
 <summary>Create key</summary>
-<summary>php manager authKey create</summary>
+
+<blockquote>php manager authKey create</blockquote>
+
 <code>Create an authentification key to use for any service that will do queries to API.</code>
 </details>
