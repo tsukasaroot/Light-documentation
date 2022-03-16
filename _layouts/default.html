@@ -21,7 +21,7 @@
 
 <header>
 	<div class="container">
-		<img src="/Light-documentation/logo.png" height="200px" width="200px">
+		<img src="/Light-documentation/logo.png" height="200px" width="200px"></img>
 
 		<a id="a-title" href="#">
 			<h1>{{ page.title | default: site.github.repository_name }}</h1>
@@ -31,9 +31,11 @@
 		<section id="downloads">
 			{% if site.show_downloads %}
 			<a href="https://github.com/tsukasaroot/Light/archive/refs/heads/main.zip" class="btn">Download as .zip</a>
-			<a href="https://github.com/tsukasaroot/Light/archive/refs/heads/main.tar.gz" class="btn">Download as .tar.gz</a>
+			<a href="https://github.com/tsukasaroot/Light/archive/refs/heads/main.tar.gz" class="btn">Download as
+				.tar.gz</a>
 			{% endif %}
 		</section>
+		<div class="line"></div>
 		<a href="/Light-documentation" class="btn">Index</a>
 		<a href="/Light-documentation/about" class="btn">About</a>
 		<a href="/Light-documentation/manager" class="btn">Manager</a>
