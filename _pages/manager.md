@@ -8,21 +8,25 @@ permalink: /manager/
 ## Memcache
 
 <details open>
+<p>
 <summary>memcache</summary>
 
->    php manager memcache
+>    php manager memcache  
 
     purges memcache memory.
 
+</p>
 </details>
 
 ## AuthKey
 
 <details open>
+<p>
 <summary>Create key</summary>
 
-    php manager authKey create
+> php manager authKey create  
 
-> Create an authentification key to use for any service that will do queries to API.
+    Create an authentification key to use for any service that will do queries to API.
 
+</p>
 </details>
