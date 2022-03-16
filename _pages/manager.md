@@ -5,26 +5,24 @@ permalink: /manager/
 
 # Manager's commands
 
-##### Memcache
+## Memcache
 
 <details open>
 <summary>
 
-```sh php manager memcache ```
-
+    php manager memcache
 </summary>
 
 > Purges memcache memory.
 
 </details>
 
-##### AuthKey
+## AuthKey
 
 <details open>
 <summary>
 
-```sh php manager authKey create ```
-
+    php manager authKey create
 </summary>
 
 > Create an authentification key to use for any service that will do queries to API.
