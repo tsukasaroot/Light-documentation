@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: " en-US" }}">
 <head>
 	<meta charset='utf-8'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,12 @@
 
 	{% seo %}
 </head>
+
+<style>
+	.line {
+		border-bottom: 1px dashed #b5e853;
+	}
+</style>
 
 <body>
 
@@ -20,7 +26,7 @@
 			<h1>{{ page.title | default: site.github.repository_name }}</h1>
 		</a>
 		<h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
+		<div class="line"></div>
 		<section id="downloads">
 			{% if site.show_downloads %}
 			<a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
@@ -34,7 +40,7 @@
 </header>
 
 <div class="container">
-	<section id="main_content" style="border-bottom: 1px dashed #b5e853">
+	<section id="main_content">
 		{{ content }}
 	</section>
 </div>
