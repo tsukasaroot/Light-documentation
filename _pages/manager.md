@@ -17,6 +17,8 @@ permalink: /manager/
 </details><br>
 </details>
 
+<div class="line"></div>
+
 <details open>
 <summary><h2>AuthKey</h2></summary>
 
