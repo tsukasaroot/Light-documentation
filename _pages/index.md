@@ -4,7 +4,7 @@ permalink: /
 ---
 
 # How to install
-Simply go to the project git repository, and click on <a href="https://github.com/tsukasaroot/Light" target="_blank" rel="noopener noreferrer"><button style="background-color: #2ea043" type="button">Use this template</button></a>
+Simply go to the project git repository, and click on <a href="https://github.com/tsukasaroot/Light/generate" target="_blank" rel="noopener noreferrer"><button style="background-color: #2ea043" type="button">Use this template</button></a>
 
 ## Get started
 
