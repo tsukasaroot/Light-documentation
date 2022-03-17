@@ -3,8 +3,6 @@ title: Manager
 permalink: /manager/
 ---
 
-# Manager's commands
-
 <details open>
 <summary><h2>Memcache</h2></summary>
 
